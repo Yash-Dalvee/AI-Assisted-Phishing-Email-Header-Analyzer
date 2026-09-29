@@ -1,0 +1,83 @@
+Delivered-To: analyst.victim@corp-example.com
+Received: from mail-relay.paypa1-support.example
+ (mail-relay.paypa1-support.example [203.0.113.45]) by mx.corp-example.com
+ (Postfix) with ESMTPS id 4F1A2B3C4D for <analyst.victim@corp-example.com>;
+ Mon, 28 Sep 2026 09:14:31 +0000 (UTC)
+Authentication-Results: mx.corp-example.com; spf=fail (mx.corp-example.com:
+ domain of service@paypa1-support.example does not designate 203.0.113.45 as
+ permitted sender) smtp.mailfrom=service@paypa1-support.example; dkim=none
+ (message not signed); dmarc=fail (p=NONE sp=NONE dis=NONE)
+ header.from=paypa1-support.example
+Received: from localhost (unknown [198.51.100.23]) by
+ mail-relay.paypa1-support.example (Postfix) with ESMTPA id 9A8B7C6D5E for
+ <analyst.victim@corp-example.com>; Mon, 28 Sep 2026 09:14:29 +0000 (UTC)
+Return-Path: <bounce-8841@mailer.paypa1-support.example>
+From: "PayPal Security Team" <service@paypa1-support.example>
+Reply-To: "PayPal Support" <recovery.desk@secure-mail-helpdesk.example>
+To: analyst.victim@corp-example.com
+Subject: URGENT: Your PayPal account has been limited - verify within 24 hours
+Date: Mon, 28 Sep 2026 09:14:20 +0000
+Message-ID: <20260928091420.7f3c@vps-4471.bulkhost.example>
+X-Mailer: PHPMailer 5.2.1
+X-Priority: 1 (Highest)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2322913431687272291=="
+
+--===============2322913431687272291==
+Content-Type: multipart/alternative;
+ boundary="===============4524722722436036629=="
+
+--===============4524722722436036629==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Customer,
+
+We detected unusual activity on your PayPal account and it has been temporari=
+ly limited.
+
+You must verify your identity immediately or your account will be permanently=
+ suspended within 24 hours.
+
+Verify now: http://paypa1-support.example/secure/login?session=3D8f2a91c4
+Alternative link: http://198.51.100.77/verify/index.php?id=3D88412
+
+A security notice is attached. Open it in your browser to complete the verifi=
+cation form and confirm your password.
+
+Thank you,
+PayPal Security Team
+
+--===============4524722722436036629==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Arial,sans-serif">
+<p>Dear Customer,</p>
+<p>We detected <b>unusual activity</b> on your PayPal account and it has been=
+ temporarily limited.</p>
+<p>You must verify your identity <b>immediately</b> or your account will be p=
+ermanently suspended within 24 hours.</p>
+<p><a href=3D"http://paypa1-support.example/secure/login?session=3D8f2a91c4">=
+https://www.paypal.com/myaccount/security</a></p>
+<p>Trouble with the button? <a href=3D"http://198.51.100.77/verify/index.php?=
+id=3D88412">Click here to verify</a></p>
+<p>A security notice is attached. Open it in your browser to confirm your pas=
+sword.</p>
+<p>Thank you,<br>PayPal Security Team</p>
+</body></html>
+
+--===============4524722722436036629==--
+
+--===============2322913431687272291==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Security_Notice.pdf.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGhlYWQ+PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMDt1cmw9aHR0
+cDovL3BheXBhMS1zdXBwb3J0LmV4YW1wbGUvc2VjdXJlL2xvZ2luP3Nlc3Npb249OGYyYTkxYzQi
+PjwvaGVhZD48Ym9keT5Mb2FkaW5nIHNlY3VyZSBkb2N1bWVudC4uLjwvYm9keT48L2h0bWw+Cg==
+
+--===============2322913431687272291==--
